@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 #include <string>
 #include <cstring>
 using namespace std;
@@ -46,7 +46,7 @@ int main() {
 
 	for (int i = 0; i < tc; i++) {
 		zeroCnt = 0;	oneCnt = 0;
-		// �迭 �ʱ�ȭ
+		// 배열 초기화
 		memset(arr, 0, sizeof(arr));
 
 		int size = 0;
