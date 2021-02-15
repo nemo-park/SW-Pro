@@ -24,7 +24,7 @@ void chkCnt(int x, int y, int size) {
 	if (fullScan(x, y, size)) {
 		if (arr[x][y] == 0)	zeroCnt++;
 		else oneCnt++;
-		
+
 		return;
 	}
 
