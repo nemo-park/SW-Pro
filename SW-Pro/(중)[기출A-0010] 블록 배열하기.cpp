@@ -49,7 +49,7 @@ int main() {
 			for (int j = 0; j < bCnt; j++) {
 				if (v[j].second >= i && v[j].first > 0) {
 					ans = ans + v[j].first;
-					// 반영한 score 초기화
+					// 반영한 score 초기화 
 					v[j].first = 0;
 					break;
 				}
