@@ -9,7 +9,7 @@ int ans, minVal;
 vector<pair<int, int>> soldiers;
 
 bool compare(pair<int, int> a, pair<int, int> b) {
-	// first 기준 오름차순 정렬    
+	// first 기준 오름차순 정렬     
 	if (a.first == b.first)	return a.second < b.second;
 	else return a.first < b.first;
 }
