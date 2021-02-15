@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <string>
 #include <cstring>
 #include <vector>
@@ -49,7 +49,7 @@ int main() {
 			for (int j = 0; j < bCnt; j++) {
 				if (v[j].second >= i && v[j].first > 0) {
 					ans = ans + v[j].first;
-					// ¹İ¿µÇÑ score ÃÊ±âÈ­    
+					// ë°˜ì˜í•œ score ì´ˆê¸°í™”    
 					v[j].first = 0;
 					break;
 				}

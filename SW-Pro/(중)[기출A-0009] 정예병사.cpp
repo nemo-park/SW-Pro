@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <string>
 #include <cstring>
 #include <vector>
@@ -9,7 +9,7 @@ int ans, minVal;
 vector<pair<int, int>> soldiers;
 
 bool compare(pair<int, int> a, pair<int, int> b) {
-	// first ±âÁØ ¿À¸§Â÷¼ø Á¤·Ä     
+	// first ê¸°ì¤€ ì˜¤ë¦„ì°¨ìˆœ ì •ë ¬     
 	if (a.first == b.first)	return a.second < b.second;
 	else return a.first < b.first;
 }
