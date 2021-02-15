@@ -19,6 +19,9 @@
     <Filter Include="소스 파일\Sort">
       <UniqueIdentifier>{dd17c961-5561-4cc3-adc6-734fb6e5491f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\BFS">
+      <UniqueIdentifier>{18c45fde-7800-4dde-880e-9c666ee12139}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="%28중%29[기출A-0010] 블록 배열하기.cpp">
@@ -29,6 +32,9 @@
     </ClCompile>
     <ClCompile Include="%28중%29[연습A-0028] 나누기.cpp">
       <Filter>소스 파일\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="(중)[기출A-0033] 유니콘.cpp">
+      <Filter>소스 파일\BFS</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
