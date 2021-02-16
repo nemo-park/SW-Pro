@@ -28,6 +28,9 @@
     <Filter Include="소스 파일\Two Pointer">
       <UniqueIdentifier>{5ffa96c1-7e58-4443-9b25-c9e70bc42469}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\수학">
+      <UniqueIdentifier>{78e679d0-c0d4-4a51-8c6c-f50142887b39}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="%28중%29[기출A-0010] 블록 배열하기.cpp">
@@ -53,6 +56,9 @@
     </ClCompile>
     <ClCompile Include="(중)[연습A-0026] 지은이가 지은 집.cpp">
       <Filter>소스 파일\Two Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="(중)[연습A-0024] 거듭제곱 구하기.cpp">
+      <Filter>소스 파일\수학</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
