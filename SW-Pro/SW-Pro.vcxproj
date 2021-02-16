@@ -159,6 +159,7 @@
     <ClCompile Include="(중상)[교육P-0016] 동굴.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="(중상)[교육P-0023] 의미있는 문장 찾기.cpp" />
     <ClCompile Include="1920 수 찾기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>

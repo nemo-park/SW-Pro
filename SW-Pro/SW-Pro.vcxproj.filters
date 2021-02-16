@@ -60,5 +60,8 @@
     <ClCompile Include="(중)[연습A-0024] 거듭제곱 구하기.cpp">
       <Filter>소스 파일\수학</Filter>
     </ClCompile>
+    <ClCompile Include="(중상)[교육P-0023] 의미있는 문장 찾기.cpp">
+      <Filter>소스 파일\Two Pointer</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
