@@ -48,5 +48,8 @@
     <ClCompile Include="2003 수들의 합2.cpp">
       <Filter>소스 파일\Two Pointer</Filter>
     </ClCompile>
+    <ClCompile Include="(중상)[교육P-0016] 동굴.cpp">
+      <Filter>소스 파일\Sort</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
