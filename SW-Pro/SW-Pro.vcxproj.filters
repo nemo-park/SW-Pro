@@ -51,5 +51,8 @@
     <ClCompile Include="(중상)[교육P-0016] 동굴.cpp">
       <Filter>소스 파일\Sort</Filter>
     </ClCompile>
+    <ClCompile Include="(중)[연습A-0026] 지은이가 지은 집.cpp">
+      <Filter>소스 파일\Two Pointer</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
