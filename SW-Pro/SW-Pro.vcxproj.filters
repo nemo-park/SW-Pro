@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\Binary Search">
       <UniqueIdentifier>{a9b9a289-bc97-4230-9ffc-e6bec65837fd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Two Pointer">
+      <UniqueIdentifier>{5ffa96c1-7e58-4443-9b25-c9e70bc42469}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="%28중%29[기출A-0010] 블록 배열하기.cpp">
@@ -41,6 +44,9 @@
     </ClCompile>
     <ClCompile Include="1920 수 찾기.cpp">
       <Filter>소스 파일\Binary Search</Filter>
+    </ClCompile>
+    <ClCompile Include="2003 수들의 합2.cpp">
+      <Filter>소스 파일\Two Pointer</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
