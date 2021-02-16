@@ -22,6 +22,9 @@
     <Filter Include="소스 파일\BFS">
       <UniqueIdentifier>{18c45fde-7800-4dde-880e-9c666ee12139}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Binary Search">
+      <UniqueIdentifier>{a9b9a289-bc97-4230-9ffc-e6bec65837fd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="%28중%29[기출A-0010] 블록 배열하기.cpp">
@@ -35,6 +38,9 @@
     </ClCompile>
     <ClCompile Include="(중)[기출A-0033] 유니콘.cpp">
       <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="1920 수 찾기.cpp">
+      <Filter>소스 파일\Binary Search</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
