@@ -75,5 +75,8 @@
     <ClCompile Include="(중상)[연습P-0019] 구간합.cpp">
       <Filter>소스 파일\Indexed Tree</Filter>
     </ClCompile>
+    <ClCompile Include="(중)[기출A-0039] 보물찾기.cpp">
+      <Filter>소스 파일\Sort</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
