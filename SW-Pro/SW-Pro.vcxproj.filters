@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\수학">
       <UniqueIdentifier>{78e679d0-c0d4-4a51-8c6c-f50142887b39}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Indexed Tree">
+      <UniqueIdentifier>{d3103ce5-70d3-4ecc-afa5-0d7a7018d8f4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="%28중%29[기출A-0010] 블록 배열하기.cpp">
@@ -62,6 +65,9 @@
     </ClCompile>
     <ClCompile Include="(중상)[교육P-0023] 의미있는 문장 찾기.cpp">
       <Filter>소스 파일\Two Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="2042 구간 합 구하기.cpp">
+      <Filter>소스 파일\Indexed Tree</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
