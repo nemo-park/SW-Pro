@@ -69,5 +69,8 @@
     <ClCompile Include="2042 구간 합 구하기.cpp">
       <Filter>소스 파일\Indexed Tree</Filter>
     </ClCompile>
+    <ClCompile Include="(중)[연습A-0020] 탑.cpp">
+      <Filter>소스 파일\수학</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
