@@ -6,33 +6,34 @@
 using namespace std;
 
 int totCnt, mCnt, result;
-int arr[1000001];
-int visited[1000001];
+int word[1000001];
+int wordCnt[1000001];
 
 int twoPointer() {
 
 	int start = 0;
 	int end = 0;
-	int match = 0;
+	int findWordCnt = 0;
 	int usedCnt = 0;
 	int minVal = INT_MAX;
 
 	while (start <= end && end <= totCnt) {
 
-		if (match < mCnt) {
-			if (visited[arr[end]] == 0) match++;
+		if (findWordCnt < mCnt) {
+			
+			if (wordCnt[word[end]] == 0) findWordCnt++;
 
 			usedCnt++;
-			visited[arr[end++]]++;
+			wordCnt[word[end++]]++;
 		}
-		else if (match == mCnt) {
+		else if (findWordCnt == mCnt) {
 
 			minVal = min(usedCnt, minVal);
 
-			if (visited[arr[start]] == 1) match--;
+			if (wordCnt[word[start]] == 1) findWordCnt--;
 
 			usedCnt--;
-			visited[arr[start++]]--;
+			wordCnt[word[start++]]--;
 		}
 	}
 
@@ -54,11 +55,11 @@ int main() {
 		cin >> totCnt >> mCnt;
 
 		result = 0;
-		memset(arr, 0, sizeof(arr));
-		memset(visited, 0, sizeof(visited));
+		memset(word, 0, sizeof(word));
+		memset(wordCnt, 0, sizeof(wordCnt));
 
 		for (int i = 0; i < totCnt; i++) {
-			cin >> arr[i];
+			cin >> word[i];
 		}
 
 		cout << "#" << tc << " " << twoPointer() << '\n';
