@@ -96,5 +96,8 @@
     <ClCompile Include="1837 암호제작.cpp">
       <Filter>소스 파일\에라토스테네스의체</Filter>
     </ClCompile>
+    <ClCompile Include="14476 최대공약수 하나 빼기.cpp">
+      <Filter>소스 파일\유클리드호제법</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
