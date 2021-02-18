@@ -93,5 +93,8 @@
     <ClCompile Include="(중상)[교육P-0034] 당황한 암호학자.cpp">
       <Filter>소스 파일\에라토스테네스의체</Filter>
     </ClCompile>
+    <ClCompile Include="1837 암호제작.cpp">
+      <Filter>소스 파일\에라토스테네스의체</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
