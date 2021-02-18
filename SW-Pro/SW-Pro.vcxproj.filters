@@ -34,6 +34,9 @@
     <Filter Include="소스 파일\Indexed Tree">
       <UniqueIdentifier>{d3103ce5-70d3-4ecc-afa5-0d7a7018d8f4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\에라토스테네스의체">
+      <UniqueIdentifier>{35a2bc66-0f37-433c-924f-d12e023f5e77}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="%28중%29[기출A-0010] 블록 배열하기.cpp">
@@ -77,6 +80,9 @@
     </ClCompile>
     <ClCompile Include="(중)[기출A-0039] 보물찾기.cpp">
       <Filter>소스 파일\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="(중)[연습A-0022] 소수경로.cpp">
+      <Filter>소스 파일\에라토스테네스의체</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -154,6 +154,7 @@
     </ClCompile>
     <ClCompile Include="(중)[기출A-0039] 보물찾기.cpp" />
     <ClCompile Include="(중)[연습A-0020] 탑.cpp" />
+    <ClCompile Include="(중)[연습A-0022] 소수경로.cpp" />
     <ClCompile Include="(중)[연습A-0024] 거듭제곱 구하기.cpp" />
     <ClCompile Include="(중)[연습A-0026] 지은이가 지은 집.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
