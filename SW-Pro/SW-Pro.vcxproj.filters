@@ -37,6 +37,9 @@
     <Filter Include="소스 파일\에라토스테네스의체">
       <UniqueIdentifier>{35a2bc66-0f37-433c-924f-d12e023f5e77}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\유클리드호제법">
+      <UniqueIdentifier>{024f5d22-fde0-4e88-94b7-60c8a84c0666}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="%28중%29[기출A-0010] 블록 배열하기.cpp">
@@ -83,6 +86,9 @@
     </ClCompile>
     <ClCompile Include="(중)[연습A-0022] 소수경로.cpp">
       <Filter>소스 파일\에라토스테네스의체</Filter>
+    </ClCompile>
+    <ClCompile Include="(중)[교육A-0004] 금괴.cpp">
+      <Filter>소스 파일\유클리드호제법</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
