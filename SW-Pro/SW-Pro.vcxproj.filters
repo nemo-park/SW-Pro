@@ -90,5 +90,8 @@
     <ClCompile Include="(중)[교육A-0004] 금괴.cpp">
       <Filter>소스 파일\유클리드호제법</Filter>
     </ClCompile>
+    <ClCompile Include="(중상)[교육P-0034] 당황한 암호학자.cpp">
+      <Filter>소스 파일\에라토스테네스의체</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
