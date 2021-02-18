@@ -99,5 +99,8 @@
     <ClCompile Include="14476 최대공약수 하나 빼기.cpp">
       <Filter>소스 파일\유클리드호제법</Filter>
     </ClCompile>
+    <ClCompile Include="(중상)[기출P-0033] 미운오리새끼 찾기.cpp">
+      <Filter>소스 파일\유클리드호제법</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
