@@ -102,5 +102,8 @@
     <ClCompile Include="(중상)[기출P-0033] 미운오리새끼 찾기.cpp">
       <Filter>소스 파일\유클리드호제법</Filter>
     </ClCompile>
+    <ClCompile Include="(중상)[교육P-0031] 최대와 최소.cpp">
+      <Filter>소스 파일\Indexed Tree</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
