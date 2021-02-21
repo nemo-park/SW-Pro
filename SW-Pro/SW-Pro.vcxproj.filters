@@ -40,6 +40,9 @@
     <Filter Include="소스 파일\분할정복">
       <UniqueIdentifier>{9149def4-da14-434b-98a9-b2ee4577d464}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Priority Queue">
+      <UniqueIdentifier>{d832df06-bd7e-4395-a834-2f1d27cd4cfa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="%28중%29[기출A-0010] 블록 배열하기.cpp">
@@ -104,6 +107,9 @@
     </ClCompile>
     <ClCompile Include="%28중%29[기출A-0009] 정예병사_Sort.cpp">
       <Filter>소스 파일\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="(중)[기출A-0009] 정예병사.cpp">
+      <Filter>소스 파일\Priority Queue</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
