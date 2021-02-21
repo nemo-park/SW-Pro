@@ -13,9 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\Array">
-      <UniqueIdentifier>{77e22f67-3e97-4e0b-9c0f-42fdeeca475a}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\Sort">
       <UniqueIdentifier>{dd17c961-5561-4cc3-adc6-734fb6e5491f}</UniqueIdentifier>
     </Filter>
@@ -46,9 +43,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="%28중%29[기출A-0010] 블록 배열하기.cpp">
-      <Filter>소스 파일\Sort</Filter>
-    </ClCompile>
-    <ClCompile Include="(중)[기출A-0009] 정예병사.cpp">
       <Filter>소스 파일\Sort</Filter>
     </ClCompile>
     <ClCompile Include="(중)[기출A-0033] 유니콘.cpp">
@@ -107,6 +101,9 @@
     </ClCompile>
     <ClCompile Include="%28중%29[연습A-0028] 나누기.cpp">
       <Filter>소스 파일\분할정복</Filter>
+    </ClCompile>
+    <ClCompile Include="%28중%29[기출A-0009] 정예병사_Sort.cpp">
+      <Filter>소스 파일\Sort</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
