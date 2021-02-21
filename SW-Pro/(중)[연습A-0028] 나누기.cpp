@@ -1,65 +1,69 @@
 ﻿#include <iostream>
 #include <string>
 #include <cstring>
+#include <algorithm>
 using namespace std;
 
 int zeroCnt, oneCnt;
 int arr[129][129];
 
-bool fullScan(int x, int y, int size) {
-	int chkVal = arr[x][y];
+bool fullScan(int row, int col, int arrSize) {
 
-	for (int i = 0; i < size; i++) {
-		for (int j = 0; j < size; j++) {
-			if (arr[x + i][y + j] != chkVal) return false;
+	int base = arr[row][col];
+
+	for (int i = 0; i < arrSize; i++) {
+		for (int j = 0; j < arrSize; j++) {
+			if (arr[row + i][col + j] != base) {
+				return false;
+			}
 		}
 	}
 
 	return true;
 }
 
+void getCnt(int row, int col, int arrSize) {
 
+	int base = arr[row][col];
 
-void chkCnt(int x, int y, int size) {
-	if (fullScan(x, y, size)) {
-		if (arr[x][y] == 0)	zeroCnt++;
+	if (fullScan(row, col, arrSize)) {
+		if (base == 0) zeroCnt++;
 		else oneCnt++;
-
-		return;
 	}
+	else {
+		arrSize >>= 1;
 
-	size = size / 2;
-
-	chkCnt(x, y, size);
-	chkCnt(x + size, y, size);
-	chkCnt(x, y + size, size);
-	chkCnt(x + size, y + size, size);
+		getCnt(row, col, arrSize);
+		getCnt(row, col + arrSize, arrSize);
+		getCnt(row + arrSize, col, arrSize);
+		getCnt(row + arrSize, col + arrSize, arrSize);
+	}
 }
 
 int main() {
+
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
 
-	int tc = 0;
-	cin >> tc;
+	int T = 0;
+	cin >> T;
+	for (int tc = 1; tc <= T; tc++) {
+		int arrSize = 0;
+		cin >> arrSize;
 
-	for (int i = 0; i < tc; i++) {
 		zeroCnt = 0;	oneCnt = 0;
-		// 배열 초기화
 		memset(arr, 0, sizeof(arr));
 
-		int size = 0;
-		cin >> size;
-
-		for (int j = 1; j <= size; j++) {
-			for (int k = 1; k <= size; k++) {
-				cin >> arr[j][k];
+		for (int i = 0; i < arrSize; i++) {
+			for (int j = 0; j < arrSize; j++) {
+				cin >> arr[i][j];
 			}
 		}
 
-		chkCnt(1, 1, size);
-		cout << "#" << (i + 1) << " " << zeroCnt << " " << oneCnt << '\n';
+		getCnt(0, 0, arrSize);
+
+		cout << "#" << tc << " " << zeroCnt << " " << oneCnt << '\n';
 	}
 	return 0;
 }

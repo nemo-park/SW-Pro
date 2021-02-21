@@ -40,6 +40,9 @@
     <Filter Include="소스 파일\유클리드호제법">
       <UniqueIdentifier>{024f5d22-fde0-4e88-94b7-60c8a84c0666}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\분할정복">
+      <UniqueIdentifier>{9149def4-da14-434b-98a9-b2ee4577d464}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="%28중%29[기출A-0010] 블록 배열하기.cpp">
@@ -47,9 +50,6 @@
     </ClCompile>
     <ClCompile Include="(중)[기출A-0009] 정예병사.cpp">
       <Filter>소스 파일\Sort</Filter>
-    </ClCompile>
-    <ClCompile Include="%28중%29[연습A-0028] 나누기.cpp">
-      <Filter>소스 파일\Array</Filter>
     </ClCompile>
     <ClCompile Include="(중)[기출A-0033] 유니콘.cpp">
       <Filter>소스 파일\BFS</Filter>
@@ -104,6 +104,9 @@
     </ClCompile>
     <ClCompile Include="(중상)[교육P-0031] 최대와 최소.cpp">
       <Filter>소스 파일\Indexed Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="%28중%29[연습A-0028] 나누기.cpp">
+      <Filter>소스 파일\분할정복</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
