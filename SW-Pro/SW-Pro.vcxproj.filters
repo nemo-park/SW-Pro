@@ -43,6 +43,9 @@
     <Filter Include="소스 파일\Priority Queue">
       <UniqueIdentifier>{d832df06-bd7e-4395-a834-2f1d27cd4cfa}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Union-Find">
+      <UniqueIdentifier>{8b6fc897-357a-47aa-adb9-4a2a7d1e5a96}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="%28중%29[기출A-0010] 블록 배열하기.cpp">
@@ -110,6 +113,9 @@
     </ClCompile>
     <ClCompile Include="(중)[기출A-0009] 정예병사.cpp">
       <Filter>소스 파일\Priority Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="(중)[기출A-0015] 사교모임.cpp">
+      <Filter>소스 파일\Union-Find</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
