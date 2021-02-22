@@ -126,5 +126,8 @@
     <ClCompile Include="(중상)[기출P-0032] 사격장.cpp">
       <Filter>소스 파일\Union-Find</Filter>
     </ClCompile>
+    <ClCompile Include="(중)[사전A-0031] 자율주행 테스트.cpp">
+      <Filter>소스 파일\MST - Kruskal%27s Algorithm</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
