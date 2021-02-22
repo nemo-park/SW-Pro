@@ -46,6 +46,9 @@
     <Filter Include="소스 파일\Union-Find">
       <UniqueIdentifier>{8b6fc897-357a-47aa-adb9-4a2a7d1e5a96}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\MST - Kruskal%27s Algorithm">
+      <UniqueIdentifier>{675e4d7f-1de4-4f0c-b128-46170990972d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="%28중%29[기출A-0010] 블록 배열하기.cpp">
@@ -116,6 +119,9 @@
     </ClCompile>
     <ClCompile Include="(중)[기출A-0015] 사교모임.cpp">
       <Filter>소스 파일\Union-Find</Filter>
+    </ClCompile>
+    <ClCompile Include="(중상)[교육P-0007] 군사 도로망.cpp">
+      <Filter>소스 파일\MST - Kruskal%27s Algorithm</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
