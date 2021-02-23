@@ -49,6 +49,9 @@
     <Filter Include="소스 파일\MST - Kruskal%27s Algorithm">
       <UniqueIdentifier>{675e4d7f-1de4-4f0c-b128-46170990972d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\LCA 최소공통조상">
+      <UniqueIdentifier>{9b15dad4-4aed-482a-beb6-9c1c93e65340}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="%28중%29[기출A-0010] 블록 배열하기.cpp">
@@ -128,6 +131,9 @@
     </ClCompile>
     <ClCompile Include="(중)[사전A-0031] 자율주행 테스트.cpp">
       <Filter>소스 파일\MST - Kruskal%27s Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="11437 LCA.cpp">
+      <Filter>소스 파일\LCA 최소공통조상</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
