@@ -180,6 +180,7 @@
     <ClCompile Include="(중상)[교육P-0007] 군사 도로망.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="(중상)[교육P-0008] 임계경로.cpp" />
     <ClCompile Include="(중상)[교육P-0016] 동굴.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
