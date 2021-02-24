@@ -55,6 +55,9 @@
     <Filter Include="소스 파일\위상정렬">
       <UniqueIdentifier>{e9ec0356-7104-443d-8d95-e51547219909}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Cut Vertices - 단절점">
+      <UniqueIdentifier>{a6686e75-c5b0-423a-8c9e-b1caa216dd35}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="%28중%29[기출A-0010] 블록 배열하기.cpp">
@@ -149,6 +152,9 @@
     </ClCompile>
     <ClCompile Include="(중상)[기출P-0051] 조상이 키컸으면.cpp">
       <Filter>소스 파일\LCA 최소공통조상</Filter>
+    </ClCompile>
+    <ClCompile Include="(중)[기출A-0037] 핵심도시1.cpp">
+      <Filter>소스 파일\Cut Vertices - 단절점</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
