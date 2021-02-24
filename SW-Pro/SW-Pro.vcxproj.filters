@@ -61,6 +61,9 @@
     <Filter Include="소스 파일\Dijkstra - 다익스트라">
       <UniqueIdentifier>{89ecca9f-549c-417c-afeb-d6939d6d356f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Floyd Warshall - 플로이드와샬">
+      <UniqueIdentifier>{9214e550-3375-4ec6-82db-169f64ba4837}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="%28중%29[기출A-0010] 블록 배열하기.cpp">
@@ -164,6 +167,9 @@
     </ClCompile>
     <ClCompile Include="(중상)[연습P-0012] 파티 참석하기.cpp">
       <Filter>소스 파일\Dijkstra - 다익스트라</Filter>
+    </ClCompile>
+    <ClCompile Include="(중상)[교육P-0006] 가장 먼 두 도시.cpp">
+      <Filter>소스 파일\Floyd Warshall - 플로이드와샬</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
