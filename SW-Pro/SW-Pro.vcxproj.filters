@@ -162,5 +162,8 @@
     <ClCompile Include="(중상)[교육P-0009] 최단 경로.cpp">
       <Filter>소스 파일\Dijkstra - 다익스트라</Filter>
     </ClCompile>
+    <ClCompile Include="(중상)[연습P-0012] 파티 참석하기.cpp">
+      <Filter>소스 파일\Dijkstra - 다익스트라</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
