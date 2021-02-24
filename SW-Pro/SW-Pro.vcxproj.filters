@@ -144,5 +144,8 @@
     <ClCompile Include="11438 LCA 2.cpp">
       <Filter>소스 파일\LCA 최소공통조상</Filter>
     </ClCompile>
+    <ClCompile Include="(중상)[교육P-0026] 최저 공통 조상.cpp">
+      <Filter>소스 파일\LCA 최소공통조상</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
