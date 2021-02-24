@@ -141,5 +141,8 @@
     <ClCompile Include="(중상)[교육P-0008] 임계경로.cpp">
       <Filter>소스 파일\위상정렬</Filter>
     </ClCompile>
+    <ClCompile Include="11438 LCA 2.cpp">
+      <Filter>소스 파일\LCA 최소공통조상</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
