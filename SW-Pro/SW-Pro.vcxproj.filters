@@ -147,5 +147,8 @@
     <ClCompile Include="(중상)[교육P-0026] 최저 공통 조상.cpp">
       <Filter>소스 파일\LCA 최소공통조상</Filter>
     </ClCompile>
+    <ClCompile Include="(중상)[기출P-0051] 조상이 키컸으면.cpp">
+      <Filter>소스 파일\LCA 최소공통조상</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
