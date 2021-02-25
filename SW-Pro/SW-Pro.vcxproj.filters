@@ -67,6 +67,9 @@
     <Filter Include="소스 파일\Bellman Ford - 벨만포드">
       <UniqueIdentifier>{9444abd1-582c-4bb4-bc03-76c3c7f1f84f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Dynamic Programming - 동적 계획법">
+      <UniqueIdentifier>{94233515-113e-4d60-b0cc-c45938709f16}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="%28중%29[기출A-0010] 블록 배열하기.cpp">
@@ -176,6 +179,9 @@
     </ClCompile>
     <ClCompile Include="(중상)[연습P-0008] 웜홀.cpp">
       <Filter>소스 파일\Bellman Ford - 벨만포드</Filter>
+    </ClCompile>
+    <ClCompile Include="(중)[교육A-0012] 보석 털이.cpp">
+      <Filter>소스 파일\Dynamic Programming - 동적 계획법</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
