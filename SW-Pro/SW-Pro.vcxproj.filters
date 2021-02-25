@@ -186,5 +186,8 @@
     <ClCompile Include="1261 알고스팟.cpp">
       <Filter>소스 파일\Dijkstra - 다익스트라</Filter>
     </ClCompile>
+    <ClCompile Include="1753 최단경로.cpp">
+      <Filter>소스 파일\Dijkstra - 다익스트라</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
