@@ -186,7 +186,7 @@
     <ClCompile Include="1261 알고스팟.cpp">
       <Filter>소스 파일\Dijkstra - 다익스트라</Filter>
     </ClCompile>
-    <ClCompile Include="1916 최소비용 구하기.cpp">
+    <ClCompile Include="(중상)[교육P-0032] 패닉룸2.cpp">
       <Filter>소스 파일\Dijkstra - 다익스트라</Filter>
     </ClCompile>
   </ItemGroup>
