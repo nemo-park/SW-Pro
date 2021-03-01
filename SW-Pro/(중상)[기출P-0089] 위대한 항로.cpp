@@ -35,6 +35,10 @@ void dijkstra(int idx) {
 			int nextIdx = next.first;
 			int nextDist = next.second;
 
+			// 정방향 다익스트라 : 누적합 < 친구식량인 경우, 음수가 나오는데
+			// 다음 값에 따라 무조건 0으로 치환이 불가하므로 정방향 다익스트라 사용 불가
+			// 역방향 다익스트라 : 누적합 < 친구식량인 경우, 음수가 나오는데
+			// 이 값을 0으로 치환 후 계산이 가능하므로 사용 가능!
 			int chk = dist[curIdx] + nextDist - fArr[nextIdx];
 			if (chk < 0)
 				chk = 0;
@@ -48,7 +52,6 @@ void dijkstra(int idx) {
 		}
 	}
 }
-
 
 int main() {
 
