@@ -192,10 +192,7 @@
     <ClCompile Include="(중상)[기출P-0089] 위대한 항로.cpp">
       <Filter>소스 파일\Dijkstra - 다익스트라</Filter>
     </ClCompile>
-    <ClCompile Include="1260 DFS와 BFS.cpp">
-      <Filter>소스 파일\BFS</Filter>
-    </ClCompile>
-    <ClCompile Include="2색칠하기.cpp">
+    <ClCompile Include="1707 이분그래프.cpp">
       <Filter>소스 파일\BFS</Filter>
     </ClCompile>
   </ItemGroup>
