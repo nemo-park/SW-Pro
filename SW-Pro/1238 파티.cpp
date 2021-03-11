@@ -20,19 +20,18 @@ struct compare {
 		return a.second > b.second;
 	}
 };
-priority_queue<pair<int, int>, vector<pair<int, int>>, compare> pq_go;
-priority_queue<pair<int, int>, vector<pair<int, int>>, compare> pq_return;
+priority_queue<pair<int, int>, vector<pair<int, int>>, compare> pq;
 
 void dijkstra_go() {
 
 	fill(dist_go, dist_go + MAX_N, INF);
-	pq_go.push({ partyNo, 0 });
+	pq.push({ partyNo, 0 });
 	dist_go[partyNo] = 0;
 
-	while (!pq_go.empty()) {
-		int curIdx = pq_go.top().first;
-		int curDist = pq_go.top().second;
-		pq_go.pop();
+	while (!pq.empty()) {
+		int curIdx = pq.top().first;
+		int curDist = pq.top().second;
+		pq.pop();
 
 		if (dist_go[curIdx] < curDist) continue;
 
@@ -42,7 +41,7 @@ void dijkstra_go() {
 
 			if (dist_go[nextIdx] > dist_go[curIdx] + nextDist) {
 				dist_go[nextIdx] = dist_go[curIdx] + nextDist;
-				pq_go.push({ nextIdx, dist_go[nextIdx] });
+				pq.push({ nextIdx, dist_go[nextIdx] });
 			}
 		}
 	}
@@ -51,13 +50,13 @@ void dijkstra_go() {
 void dijkstra_return() {
 
 	fill(dist_return, dist_return + MAX_N, INF);
-	pq_return.push({ partyNo, 0 });
+	pq.push({ partyNo, 0 });
 	dist_return[partyNo] = 0;
 
-	while (!pq_return.empty()) {
-		int curIdx = pq_return.top().first;
-		int curDist = pq_return.top().second;
-		pq_return.pop();
+	while (!pq.empty()) {
+		int curIdx = pq.top().first;
+		int curDist = pq.top().second;
+		pq.pop();
 
 		if (dist_return[curIdx] < curDist) continue;
 
@@ -67,12 +66,11 @@ void dijkstra_return() {
 
 			if (dist_return[nextIdx] > dist_return[curIdx] + nextDist) {
 				dist_return[nextIdx] = dist_return[curIdx] + nextDist;
-				pq_return.push({ nextIdx, dist_return[nextIdx] });
+				pq.push({ nextIdx, dist_return[nextIdx] });
 			}
 		}
 	}
 }
-
 int main() {
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);
@@ -80,16 +78,10 @@ int main() {
 
 	cin >> nodeCnt >> caseCnt >> partyNo;
 
-	for (int i = 0; i < MAX_N; i++) {
-		v_go[i].clear();
-		v_return[i].clear();
-	}
-
 	for (int i = 0; i < caseCnt; i++) {
 		int from = 0; int to = 0; int d = 0;
 		cin >> from >> to >> d;
 
-		// 模备甸(N) > 枚荐(1) : 开规氢
 		v_go[to].push_back({ from, d });
 		v_return[from].push_back({ to, d });
 	}
@@ -99,9 +91,10 @@ int main() {
 
 	int ans = 0;
 	for (int i = 1; i <= nodeCnt; i++) {
-		ans += dist_go[i] + dist_return[i];
+		ans = max(ans, dist_go[i] + dist_return[i]);
 	}
 
 	cout << ans << '\n';
+
 	return 0;
 }
