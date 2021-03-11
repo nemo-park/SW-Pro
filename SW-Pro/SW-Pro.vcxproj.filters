@@ -204,5 +204,8 @@
     <ClCompile Include="1504 특정한 최단 경로.cpp">
       <Filter>소스 파일\Dijkstra - 다익스트라</Filter>
     </ClCompile>
+    <ClCompile Include="파티.cpp">
+      <Filter>소스 파일\Dijkstra - 다익스트라</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
